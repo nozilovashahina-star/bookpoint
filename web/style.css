@@ -1,0 +1,271 @@
+.bg-header {
+    display: flex;
+    width: 100%;
+}
+
+.header-icon {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.nom {
+    color: #CC9600;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    gap: 50px;
+
+    position: absolute;
+    top: 40px;
+    left: 750px;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a:hover{
+    color: #CC9600;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 3px solid #CC9600;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.user-email {
+    margin: 0;
+    font-size: 10px;
+}
+
+.user {
+    margin-left: 20px;
+}
+
+/* ===================================================================== */
+
+.hero-sec-bg{
+    width: 100%;
+}
+
+.hero-sec-text{
+    color: #CC9600;
+    font-size: 50px;
+}
+
+.hero-sec-p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.hero-sec-p:hover{
+    color: #5c4605;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control{
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.search-btn{
+    background-color: #CC9600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-btn:hover{
+    background-color: #5c4605;
+    transition: all 0.3s ease-in-out;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #CC9600;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search:hover{
+    border: 1px solid #5c4605;
+    transition: all 0.3s ease-in-out;
+
+    background: rgba(202, 190, 173, 0.214);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.hero-sec{
+    position: absolute;
+    top: 200px;
+    left: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ============================================================================================================ */
+
+.best-picks{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.book-sele{
+    background: rgba(101, 62, 4, 0.214); /* shaffof oq fon */
+    backdrop-filter: blur(10px); /* orqa fonni loyqalash */
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.15); /* yengil chegarachi */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15); /* soya */
+    padding: 20px;
+
+    width: 300px;
+}
+
+.shop-icon-on-book{
+    position: absolute;
+    top: 20px;
+    left: 230px;
+
+    background: #CC9600;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 3px;
+}
+
+.book-sale-p{
+    position: relative;
+    text-align: center;
+}
+
+.kitoblar-sotuv-royxat{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    left: 20px;
+    margin-bottom: 100px;
+}
+
+/* =============================================================================================================== */
+
+.sec-2{
+    color: white;
+    background: black;
+}
+
+.sec-2-header{
+    color: #CC9600;
+}
+
+.narxlar{
+    color: #CC9600;
+    font-size: large;
+
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.narxlar p{
+    font-size: 15px;
+}
+
+.explore-btn{
+    border: 2px solid #CC9600;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+
+    background: black;
+    color: white;
+}
+
+.explore-btn:hover{
+    background: #CC9600;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0px 32px #cc96007f; /* soya */
+
+    
+}
+
+.sec-2-text-first{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.sec-2-total{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sec-2{
+    display: flex;
+    flex-direction: row;
+
+    padding: 50px;
+}
+
+.sec-2-photos{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-2-icon{
+    position: relative;
+    top: 180px;
+
+    width: 80px;
+    height: 50px;
+}
+
+/* ==================================================================================================================== */
+
+footer{
+    background: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footer-vector{
+    margin-left: 130px;
+}
+
+.footer-p{
+    color: #CC9600;
+}
+
+.footer-main{
+    display: flex;
+    margin-left: 100px;
+    gap: 100px;
+}
+
+/* ============================================finished======================================================================== */

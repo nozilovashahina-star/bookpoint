@@ -1,0 +1,152 @@
+.bg-header {
+    display: flex;
+    width: 100%;
+}
+
+.header-icon {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.nom {
+    color: #CC9600;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    gap: 50px;
+
+    position: absolute;
+    top: 40px;
+    left: 750px;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a:hover{
+    color: #CC9600;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 3px solid #CC9600;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.user-email {
+    margin: 0;
+    font-size: 10px;
+}
+
+.user {
+    margin-left: 20px;
+}
+
+/* ======================================header============================================================= */
+
+.sec--form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sec--form label{
+    font-size: 25px;
+}
+
+.sec--form h1{
+    color: #CC9600;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+/* ================================= */
+.book-sale-p{
+    position: relative;
+    text-align: center;
+}
+
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 50px;
+}
+
+.kitoblar-sotuv-royxat{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    left: 60px;
+}
+
+.book-sele{
+    background: rgba(241, 229, 211, 0.214);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-sele:hover{
+    background: rgba(147, 128, 99, 0.537);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.narx{
+    margin: 0px;
+}
+
+.sale-btn{
+    padding: 5px;
+    width: 190px;
+    display: flex;
+    gap: 30px;
+
+    padding-left: 35px;
+    border: 1px solid #CC9600;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.sale-btn:hover{
+    background: rgba(173, 125, 54, 0.526);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+/* ================================ */
+.bitta-icon{
+    padding: 10px;
+    background-color: #F29C0D;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    left: 1350px;
+}
+/* ================================ */
