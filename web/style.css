@@ -238,14 +238,6 @@
     flex-direction: column;
 }
 
-.sec-2-icon{
-    position: relative;
-    top: 180px;
-
-    width: 80px;
-    height: 50px;
-}
-
 /* ==================================================================================================================== */
 
 footer{
@@ -255,7 +247,8 @@ footer{
 }
 
 .footer-vector{
-    margin-left: 130px;
+    margin-left: 70px;
+    margin-bottom: 20px;
 }
 
 .footer-p{

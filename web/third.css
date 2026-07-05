@@ -55,77 +55,70 @@
 
 /* ======================================header============================================================= */
 
-.sec--form{
+.sec-1{
+    display: flex;
+}
+
+.litlle-prince-book-image{
+    position: absolute;
+    left: 175px;
+    top: 340px;
+}
+
+.book-description-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    position: absolute;
+    top: 200px;
+    left: 770px;
 }
 
-.sec--form label{
-    font-size: 25px;
-}
-
-.sec--form h1{
-    color: #CC9600;
-}
-
-form{
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-}
-/* ================================= */
-.book-sale-p{
-    position: relative;
-    text-align: center;
-}
-
-.sec-2{
+.book-container{
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    margin: 50px;
+    background-color: black;
+    color: white;
+    height: 750px;
+    width: 350px;
+    padding-left: 40px;
 }
 
-.kitoblar-sotuv-royxat{
-    display: flex;
-    gap: 25px;
-    position: relative;
-    left: 60px;
-}
-
-.book-sele{
-    background: rgba(241, 229, 211, 0.214);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    border: 3px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-    padding: 20px;
-
-    width: 260px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.book-sele:hover{
-    background: rgba(147, 128, 99, 0.537);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    border: 3px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-}
-
-.narx{
+.book-container h2{
     margin: 0px;
 }
 
-.sale-btn{
+.book-container h1{
+    color: #CC9600;
+}
+
+/* ========================================== */
+
+.category{
+    display: flex;
+    gap: 20px;
+}
+
+.price-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.price-card h1{
+    color: #CC9600;
+}
+
+.book-offer{
+    color: #CC9600;
+}
+
+button{
     padding: 5px;
-    width: 190px;
+    width: 280px;
     display: flex;
     gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     padding-left: 35px;
     border: 1px solid #CC9600;
@@ -133,23 +126,6 @@ form{
     background: transparent;
 }
 
-.sale-btn:hover{
-    background: rgba(173, 125, 54, 0.526);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-}
-/* ================================ */
-.bitta-icon{
-    padding: 10px;
-    background-color: #F29C0D;
-    border-radius: 10px;
-    display: flex;
-    position: relative;
-    left: 1350px;
-    margin-bottom: 30px;
-}
 /* ================================ */
 
 footer{
