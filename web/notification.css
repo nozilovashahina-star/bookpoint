@@ -55,86 +55,18 @@
 
 /* ======================================header============================================================= */
 
-.sec-1{
-    display: flex;
-}
-
-.litlle-prince-book-image{
-    position: absolute;
-    left: 175px;
-    top: 340px;
-}
-
-.book-description-container{
+section{
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 200px;
-    left: 770px;
-}
-
-.book-container{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    color: white;
-    height: 750px;
-    width: 350px;
-    padding-left: 40px;
-}
-
-.book-container h2{
-    margin: 0px;
-}
-
-.book-container h1{
-    color: #CC9600;
-}
-
-/* ========================================== */
-
-.category{
-    display: flex;
-    gap: 20px;
-}
-
-.price-card{
-    display: flex;
-    gap: 20px;
     align-items: center;
+    height: 600px;
 }
 
-.price-card h1{
-    color: #CC9600;
+section h1{
+    color: #4B330B;
 }
 
-.book-offer{
-    color: #CC9600;
-}
-
-button{
-    padding: 5px;
-    width: 280px;
-    display: flex;
-    gap: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    padding-left: 35px;
-    border: 1px solid #CC9600;
-    border-radius: 10px;
-    background: transparent;
-}
-
-button:hover{
-    background: rgba(173, 125, 54, 0.526);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-}
-
-/* ================================ */
+/* ======================================================================================= */
 
 footer{
     background: black;
